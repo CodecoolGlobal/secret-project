@@ -1,10 +1,15 @@
 package com.secret.project;
 
 import java.util.Comparator;
+import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
 public class Algorithm {
+
+    public int sum(List<Integer> numbers) {
+        return 0;
+    }
 
     public int calculate(Map<String, Integer> map) {
         return map.entrySet().stream()
