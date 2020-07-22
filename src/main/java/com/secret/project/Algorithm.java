@@ -11,6 +11,10 @@ public class Algorithm {
         return 0;
     }
 
+    public int nestedSum(List<List<Integer>> numbers) {
+        return 0;
+    }
+
     public int calculate(Map<String, Integer> map) {
         return map.entrySet().stream()
                 .filter(entry -> entry.getValue() > 5)
